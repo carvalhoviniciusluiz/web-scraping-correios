@@ -28,6 +28,12 @@ Seu desafio é criar um Backend para consultar através do cep e encontrar o end
 - O Scraping é feito usando puppeteer no endpoing https://buscacepinter.correios.com.br/app/endereco/index.php?t dos correios.
 - Apesar de bem simples, foi feito um arquivo express standalone para facilitar o deploy em plataformas como a vercel.
 
+### Preview ###
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22005684/118384747-10419500-b5df-11eb-8fb1-78c34ac953b9.gif" alt="Preview" height="600" />
+</p>
+
 ## :loop: Link do desafio
 
 https://devchallenge.com.br/challenges/5fb84592ad5609002194ff76/details
