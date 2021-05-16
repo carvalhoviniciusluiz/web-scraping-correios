@@ -2,7 +2,7 @@
   ## Web#Scraping#Correios
 </h1>
 
-<blockquote align="center">“Algod e errado não tá certo”!</blockquote>
+<blockquote align="center">“Algo de errado não tá certo”!</blockquote>
 
 <p align="center">
   <img alt="challenge" src="https://img.shields.io/badge/challenge-%2304D361">
@@ -27,8 +27,6 @@ O projeto se trata de um desafio da comunidade <a href="https://discord.gg/fVa4W
 - O backend usa <a href="https://expressjs.com/pt-br/" target="_blank">Express.js</a> para fornecer a api.
 - O scraping usa <a href="https://pptr.dev/" target="_blank">puppeteer</a> como motor para capturar os dados da consulta.
 - O <a href="https://buscacepinter.correios.com.br/app/endereco/index.php?t" target="_blank">formulário usado</a> é uma sub página de consulta usada pela opção de `Busca CEP ou Endereço` existente no site dos correios.
-
-__OBS__ Não foi possível hospedar o projeto em plataformas como a <a href="https://vercel.com/" target="_blank">vercel</a> ou <a href="https://www.heroku.com/" target="_blank">heroku</a> pôs o <a href="https://pptr.dev/" target="_blank">puppeteer</a> realizar o download do chrome em paralelo a sua instalação. Essas plataformas inviabilizam esse tipo de deploy por motivos de segurança.
 
 ### Preview App ###
 
