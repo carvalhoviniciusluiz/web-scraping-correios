@@ -20,13 +20,16 @@
   ],
   "main": "index.js",
   "scripts": {
+    "build": "AWS_LAMBDA_FUNCTION_NAME=true node index.js",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "dependencies": {
+    "chrome-aws-lambda": "^9.1.0",
     "consolidate": "^0.16.0",
     "express": "^4.17.1",
     "puppeteer": "^9.1.1",
+    "puppeteer-core": "^9.1.1",
     "swig": "^1.4.2"
   },
   "devDependencies": {
