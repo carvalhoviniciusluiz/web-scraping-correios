@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Scraping Correios</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Web Scraping Correios</h1>
+    <h3>Acessando o webservice de CEP dos correios</h1>
+  </header>
+
+  <main>
+    <p>Para acessar o webservice, um CEP no formato de {8} digitos deve ser fornecido, por exemplo: "01001000" </p>
+    <p>Também é possível informar um endereço, a página dos <a href="https://www.correios.com.br/" target="_blank">correios</a> sugere não utilizar nº da casa/ apto/ lote/ prédio ou abreviatura. </p>
+
+    <h2>Acessando o webservice de CEP</h2>
+    <p>Exemplo de pesquisa por CEP: <a href="http://localhost:3000/v1/cep/68900075" target="_blank">http://localhost:3000/v1/cep/68900075</a></p>
+
+    <h2>Acessando o webservice por endereço</h2>
+    <p>Exemplo de pesquisa por Endereço: <a href="http://localhost:3000/v1/cep/1852" target="_blank">http://localhost:3000/v1/cep/1852</a></p>
+
+    <h2>Correios: Pesquisa de CEP</h2>
+    <p>O formulário usado neste projeto para obter os dados de endereço devolvidos via api encontra se disponível no link <a href="https://buscacepinter.correios.com.br/app/endereco/index.php?t" target="__blank">https://buscacepinter.correios.com.br/app/endereco/index.php?t</a> que também pode ser facilmente acessado realizando a consulta no formulário <code>Busca CEP ou Endereço</code> disponível na página dos <a href="https://www.correios.com.br/" target="_blank">correios</a>.</p>
+  </main>
+
+  <footer>
+    <div>
+      <ul>
+        <li><a href="https://github.com/carvalhoviniciusluiz/web-scraping-correios" target="_blank">GitHub</a></li>
+        <li><a href="https://devchallenge.com.br/challenges/5fb84592ad5609002194ff76/details" target="_blank">Challenge</a></li>
+        <li><a href="https://discord.gg/fVa4Wu3N" target="_blank">Community</a></li>
+      </ul>
+
+      <p>Maintained by the <a href="https://www.instagram.com/carvalho_viniciusluiz/" target="_blank">@carvalhoviniciusluiz</a> - code licensed <a href="https://github.com/twbs/bootstrap/blob/v3-dev/LICENSE" rel="license noopener" target="_blank">MIT</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
