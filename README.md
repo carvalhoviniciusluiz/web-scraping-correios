@@ -22,16 +22,18 @@
 
 ## :rocket: Sobre o projeto
 
-Seu desafio é criar um Backend para consultar através do cep e encontrar o endereço do local no portal dos correios.
+O projeto se trata de um desafio da comunidade <a href="https://discord.gg/fVa4Wu3N" target="_blank">DevChallenge</a> para criar um Backend de consulta que através do cep encontre os dados do endereço dentro do portal dos <a href="https://www.correios.com.br/" target="_blank">correios</a>.
 
-- O backend usa Express.js para publicar a api padrão http://localhost:3000/v1/cep/[numero-cep/casa].
-- O Scraping é feito usando puppeteer no endpoing https://buscacepinter.correios.com.br/app/endereco/index.php?t dos correios.
-- Apesar de bem simples, foi feito um arquivo express standalone para facilitar o deploy em plataformas como a vercel.
+- O backend usa <a href="https://expressjs.com/pt-br/" target="_blank">Express.js</a> para fornecer a api.
+- O scraping usa <a href="https://pptr.dev/" target="_blank">puppeteer</a> como motor para capturar os dados da consulta.
+- O <a href="https://buscacepinter.correios.com.br/app/endereco/index.php?t" target="_blank">formulário usado</a> é uma sub página de consulta usada pela opção de `Busca CEP ou Endereço` existente no site dos correios.
 
-### Preview ###
+__OBS__ Não foi possível hospedar o projeto em plataformas como a <a href="https://vercel.com/" target="_blank">vercel</a> ou <a href="https://www.heroku.com/" target="_blank">heroku</a> pôs o <a href="https://pptr.dev/" target="_blank">puppeteer</a> realizar o download do chrome em paralelo a sua instalação. Essas plataformas inviabilizam esse tipo de deploy por motivos de segurança.
+
+### Preview App ###
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22005684/118384747-10419500-b5df-11eb-8fb1-78c34ac953b9.gif" alt="Preview" height="600" />
+  <img src="https://user-images.githubusercontent.com/22005684/118408768-56d5d480-b65d-11eb-92fc-5fa7af14bed6.gif" alt="Preview" height="600" />
 </p>
 
 ## :loop: Link do desafio
