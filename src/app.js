@@ -8,7 +8,9 @@ app.get('/v1/cep/:value', async (req, res) => {
   const { value } = req.params;
 
   const client = await Correios.init();
-  const data = await client.fetch(value);
+  const data = await client.fetch(value)
+  await client.close();
+
   res.json(data);
 });
 
